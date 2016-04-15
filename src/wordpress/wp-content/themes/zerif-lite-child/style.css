@@ -1,0 +1,166 @@
+/*
+  Theme Name: Zerif Lite Child
+  Theme URI: https://www.themeisle.com/
+  Description: This is a custom child theme I have created.
+  Author: Nick Goodall
+  URI: https://www.themeisle.com/
+  Template: zerif-lite
+  Version: 0.1
+ */
+@import url(../zerif-lite/style.css);
+
+section {
+  padding-top: 6em;
+  padding-bottom: 6em;
+}
+
+.show-agent, .show-lender, .show-tenant {
+  display: none;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #59595B;
+}
+
+.white {
+  color: white;
+}
+
+.main-title {
+  font-size: 36px;
+  font-family: 'Lato', sans-serif;
+}
+
+.sub-title {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+}
+
+.lower-title {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+}
+
+.tas-content .tas-content-block, img, a, h3, p {
+  display: block;
+  margin: auto;
+}
+
+.tas-content .tas-content-block ul {
+  list-style-type: circle;
+  text-align: left;
+}
+
+.big li {
+  font-size: larger;
+  padding: 0.5em 0;
+}
+
+.big-info {
+  text-align: right;
+  font-weight: 300;
+  font-size: 60px;
+  line-height: normal;
+  margin-top: -15px;
+}
+
+.big-explain li {
+  font-size: 24px;
+  margin: 4em 0;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.dark-bg {
+  background: #7FC6AE;
+}
+
+.dark-bg h3 {
+  color: #58595B;
+}
+
+.dark-bg h2 {
+  color: white;
+}
+
+.our-usp ul {
+  list-style-type: none;
+}
+
+.centre {
+  text-align: center;
+  margin: auto;
+}
+
+.btn.tas-btn {
+  border-color: #7FC6AE;
+}
+
+.btn.tas-btn a {
+  color: #59595B;
+  font-size: 26px;
+  font-weight: 100;
+}
+
+.isolated {
+  margin: 4em 0;
+}
+
+.btn .tas-btn :hover {
+  color: #7FC6AE;
+}
+
+p.title {
+  font-weight: 700;
+}
+
+.row.spaced {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.row .spacer {
+  padding: 2em 0;
+  border-top-style: solid;
+  border-top-color: #59595B;
+  border-top-width: 1px;
+}
+
+.tas-orange-btn, .tas-orange-btn:visited {
+  background: #f27640;
+  color: white;
+}
+
+.tas-yellow-btn, .tas-yellow-btn:visited {
+  background: #f3c639;
+  color: white;
+}
+
+.tas-blue-btn, .tas-blue-btn:visited {
+  background: #55b9c8;
+  color: white;
+}
+
+.tas-orange-btn, .tas-yellow-btn, .tas-blue-btn {
+  color: #FFF !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.tas-orange-btn:hover, .tas-orange-btn:active {
+  color: white;
+  background: #b55930;
+}
+.tas-yellow-btn:hover, .tas-yellow-btn:active {
+  color: white;
+  background: #b6952b;
+}
+.tas-blue-btn:hover, .tas-blue-btn:active {
+  color: white;
+  background: #408b96;
+}
